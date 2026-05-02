@@ -39,61 +39,61 @@ pkgs: {
       key = "<leader>sf<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua files";
+      action = ":FzfLua files<CR>";
     }
     {
       key = "<leader>sb<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua buffers";
+      action = ":FzfLua buffers<CR>";
     }
     {
       key = "<leader>sh<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua helptags";
+      action = ":FzfLua helptags<CR>";
     }
     {
       key = "<leader>sr<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua resume";
+      action = ":FzfLua resume<CR>";
     }
     {
       key = "<leader>sk<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua keymaps";
+      action = ":FzfLua keymaps<CR>";
     }
     {
       key = "<leader>sg<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua grep";
+      action = ":FzfLua grep<CR>";
     }
     {
       key = "<leader>sa<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua lsp_code_actions";
+      action = ":FzfLua lsp_code_actions<CR>";
     }
     {
       key = "<leader>ss<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua lsp_document_symbols";
+      action = ":FzfLua lsp_document_symbols<CR>";
     }
     {
       key = "<leader>sw<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua diagnostics_workspace";
+      action = ":FzfLua diagnostics_workspace<CR>";
     }
     {
       key = "<leader>sd<CR>";
       mode = "n";
       silent = true;
-      action = ":FzfLua diagnostics_document";
+      action = ":FzfLua diagnostics_document<CR>";
     }
   ];
 
