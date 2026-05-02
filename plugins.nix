@@ -36,61 +36,61 @@ pkgs: {
   
   vim.keymaps = [
     {
-      key = "<leader>sf";
+      key = "<leader>sf<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua files";
     }
     {
-      key = "<leader>sb";
+      key = "<leader>sb<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua buffers";
     }
     {
-      key = "<leader>sh";
+      key = "<leader>sh<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua helptags";
     }
     {
-      key = "<leader>sr";
+      key = "<leader>sr<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua resume";
     }
     {
-      key = "<leader>sk";
+      key = "<leader>sk<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua keymaps";
     }
     {
-      key = "<leader>sg";
+      key = "<leader>sg<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua grep";
     }
     {
-      key = "<leader>sa";
+      key = "<leader>sa<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua lsp_code_actions";
     }
     {
-      key = "<leader>ss";
+      key = "<leader>ss<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua lsp_document_symbols";
     }
     {
-      key = "<leader>sw";
+      key = "<leader>sw<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua diagnostics_workspace";
     }
     {
-      key = "<leader>sd";
+      key = "<leader>sd<CR>";
       mode = "n";
       silent = true;
       action = ":FzfLua diagnostics_document";
