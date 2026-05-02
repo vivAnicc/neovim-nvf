@@ -4,6 +4,7 @@
       enable = true;
       lspconfig.enable = true;
       mappings = {
+	hover = "K";
 	goToDefinition = "gd";
 	goToType = "gt";
 	renameSymbol = "<leader>lr";
