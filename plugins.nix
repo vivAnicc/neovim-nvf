@@ -36,61 +36,61 @@ pkgs: {
   
   vim.keymaps = [
     {
-      key = "<leader>sf<CR>";
+      key = "<leader>sf";
       mode = "n";
       silent = true;
       action = ":FzfLua files<CR>";
     }
     {
-      key = "<leader>sb<CR>";
+      key = "<leader>sb";
       mode = "n";
       silent = true;
       action = ":FzfLua buffers<CR>";
     }
     {
-      key = "<leader>sh<CR>";
+      key = "<leader>sh";
       mode = "n";
       silent = true;
       action = ":FzfLua helptags<CR>";
     }
     {
-      key = "<leader>sr<CR>";
+      key = "<leader>sr";
       mode = "n";
       silent = true;
       action = ":FzfLua resume<CR>";
     }
     {
-      key = "<leader>sk<CR>";
+      key = "<leader>sk";
       mode = "n";
       silent = true;
       action = ":FzfLua keymaps<CR>";
     }
     {
-      key = "<leader>sg<CR>";
+      key = "<leader>sg";
       mode = "n";
       silent = true;
       action = ":FzfLua grep<CR>";
     }
     {
-      key = "<leader>sa<CR>";
+      key = "<leader>sa";
       mode = "n";
       silent = true;
       action = ":FzfLua lsp_code_actions<CR>";
     }
     {
-      key = "<leader>ss<CR>";
+      key = "<leader>ss";
       mode = "n";
       silent = true;
       action = ":FzfLua lsp_document_symbols<CR>";
     }
     {
-      key = "<leader>sw<CR>";
+      key = "<leader>sw";
       mode = "n";
       silent = true;
       action = ":FzfLua diagnostics_workspace<CR>";
     }
     {
-      key = "<leader>sd<CR>";
+      key = "<leader>sd";
       mode = "n";
       silent = true;
       action = ":FzfLua diagnostics_document<CR>";
